@@ -5,14 +5,13 @@ Author: Zhiying Xie
 
 
 from tkinter import Tk, Canvas, Frame, BOTH
-import Read_Reactions
 import Read_Compound_Reaction
 
 class Draw_Reaction(Frame):
 
     def __init__(self):
         super().__init__()
-        reaction_list = Read_Compound_Reaction.get_reaction_list(Read_Reactions.readFile("Result2.txt"))
+        reaction_list = Read_Compound_Reaction.get_reaction_list(Read_Compound_Reaction.readFile("Result2.txt"))
 
         inputList = Read_Compound_Reaction.get_reaction_data(reaction_list)
         inputList = Read_Compound_Reaction.get_compound_reaction(inputList)
@@ -84,7 +83,7 @@ def main():
     margin = 10
     height = 40
     width = 100
-    reaction_list = Read_Compound_Reaction.get_reaction_list(Read_Reactions.readFile("Result2.txt"))
+    reaction_list = Read_Compound_Reaction.get_reaction_list(Read_Compound_Reaction.readFile("Result2.txt"))
 
     inputList = Read_Compound_Reaction.get_reaction_data(reaction_list)
     inputList = Read_Compound_Reaction.get_compound_reaction(inputList)

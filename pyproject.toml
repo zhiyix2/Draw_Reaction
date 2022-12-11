@@ -1,12 +1,15 @@
 [project]
 name = "Draw_Reaction_zhiyix2"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Zhiying Xie", email="zhiyix2@uw.edu" },
 ]
 description = "A package for drawing compound reaction"
 readme = "README.md"
 requires-python = ">=3.10"
+dependencies = [
+    "tkinter"
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",

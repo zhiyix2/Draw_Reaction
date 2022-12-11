@@ -56,7 +56,7 @@ def get_compound_reaction(reaction_list):
     result_list.append(reaction_list[0])
     currentIndex = 0
     for i in range(1, len(reaction_list), 1):
-        print(reaction_list[i])
+        #print(reaction_list[i])
         #result = list()
         if reaction_list[i][0] == result_list[currentIndex][len(result_list[currentIndex]) - 1]:
             for j in range(1, len(reaction_list[i]), 1):
@@ -67,16 +67,21 @@ def get_compound_reaction(reaction_list):
     return result_list
 
 
-
-        
+"""
 reaction_list = get_reaction_list(readFile("Result2.txt"))
-print(reaction_list)
+reaction_list = replace_dollar_sign(reaction_list)
+#print(reaction_list)
 reaction_list = get_reaction_data(reaction_list)
-print(reaction_list)
 reaction_list = get_compound_reaction(reaction_list)
+print(reaction_list)
+
 print()
 for li in reaction_list:
     print(li)
 print()
+
+
+"""
+        
 
 

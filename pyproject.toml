@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Draw_Reaction_zhiyix2"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Zhiying Xie", email="zhiyix2@uw.edu" },
 ]
@@ -14,7 +14,7 @@ description = "A package for drawing compound reaction"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "tkinter",
+    "tk",
     'tomli; python_version < "3.10"',
 ]
 classifiers = [

@@ -38,7 +38,7 @@ There are two options to install the program.
 
 This program can be run by executing the following:
   ```sh
-   python Draw_Reaction.py <TXT File Path>
+   python __main__.py <TXT File Path>
   ```
 This program draws reactions from given txt file.
 The given txt file has to include the reaction section according to the format below:
@@ -63,7 +63,7 @@ The given txt file has to include the reaction section according to the format b
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-[![MIT License](https://github.com/zhiyix2/Draw_Reaction//blob/main/Image/license.svg)](https://github.com/zhiyix2/Draw_Reaction/blob/main/LICENSE)
+[![MIT License](https://github.com/zhiyix2/Draw_Reaction/blob/main/Image/license.svg)](https://github.com/zhiyix2/Draw_Reaction/blob/main/LICENSE)
 
 
 ## Contact

@@ -1,45 +1,23 @@
-[![Latest Version](https://img.shields.io/pypi/v/tkshapes.svg)](https://pypi.org/project/tkshapes/)
-
 # Draw_Reaction
-
-To setup the environment for executing "python Draw_Reaction.py" you need to install the Tkinter
-You can execute "pip install tk" in the terminal
-Run the program by executing "python Draw_Reaction.py <TXT File Path>"
-
+[![Latest Version](https://img.shields.io/pypi/v/tkshapes.svg)](https://pypi.org/project/tkshapes/)
 
 
 ## About The Project
-[![Product Name Screen Shot](https://github.com/zhiyix2/Draw_Reaction/Image/Demo.svg)]
+[![Product Name Screen Shot](https://github.com/zhiyix2/Draw_Reaction/blob/main/Image/Demo.png)]
 This program draws reactions from a txt file with reactions in the SBML format.
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-To setup the environment for executing "python Draw_Reaction.py" you need to install the Tkinter by typing "pip install tk" in the terminal
-the program can be run by executing "python Draw_Reaction.py <TXT File Path>"
-
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The followings are the instructions on setting the program locally.
 
 ### Prerequisites
-
-To setup the environment for executing "python Draw_Reaction.py" you need to install the Tkinter by typing "pip install tk" in the terminal
+1. Python 3.10 or higher.
+2. Tkinter 0.1.0 or higher.
+To setup the environment for executing "python Draw_Reaction.py" you need to install the Tkinter by typing "pip install tk" in the terminal/cml.
+  ```sh
+   pip install tk
+   ```
 
 
 ### Installation
@@ -48,17 +26,15 @@ There are two options to install the program.
 
 1. Clone the repo from GitHub
   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/zhiyix2/Draw_Reaction.git
    ```
 2. Install the package using pip
-   ```sh
+  ```sh
    pip install Draw_Reaction-zhiyix2
-   ```
+  ```
 
 
 ## Usage
-
-
 
 This program can be run by executing the following:
   ```sh
@@ -87,7 +63,7 @@ The given txt file has to include the reaction section according to the format b
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-[![MIT License](https://github.com/zhiyix2/Draw_Reaction/Image/license.svg)](https://github.com/zhiyix2/Draw_Reaction/blob/main/LICENSE)
+[![MIT License](https://github.com/zhiyix2/Draw_Reaction//blob/main/Image/license.svg)](https://github.com/zhiyix2/Draw_Reaction/blob/main/LICENSE)
 
 
 ## Contact

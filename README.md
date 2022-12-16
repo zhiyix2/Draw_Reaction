@@ -1,5 +1,4 @@
 # Draw_Reaction
-[![Latest Version](https://img.shields.io/pypi/v/tkshapes.svg)](https://pypi.org/project/tkshapes/)
 
 
 ## About The Project
@@ -7,7 +6,6 @@
 This program draws reactions from a txt file with reactions in the SBML format.
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 The followings are the instructions on setting the program locally.
 

@@ -3,7 +3,7 @@
 
 
 ## About The Project
-[![Product Name Screen Shot](https://github.com/zhiyix2/Draw_Reaction/blob/main/Image/Demo.png)]
+![Draw Reaction](https://github.com/zhiyix2/Draw_Reaction/blob/main/Image/Demo.png)
 This program draws reactions from a txt file with reactions in the SBML format.
 
 

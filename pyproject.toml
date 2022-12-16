@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Draw_Reaction_zhiyix2"
-version = "0.2.0"
+version = "0.1.1"
 authors = [
   { name="Zhiying Xie", email="zhiyix2@uw.edu" },
 ]

@@ -1,9 +1,9 @@
 # Draw_Reaction
-
+[![Latest Version](https://img.shields.io/pypi/v/Draw-Reaction-zhiyix2.svg)](https://pypi.org/project/Draw-Reaction-zhiyix2/)
 
 ## About The Project
-![Draw Reaction](https://github.com/zhiyix2/Draw_Reaction/blob/main/Image/Demo.png)
 This program draws reactions from a txt file with reactions in the SBML format.
+![Draw Reaction](https://github.com/zhiyix2/Draw_Reaction/blob/main/Image/Demo.png)
 
 
 ## Getting Started
@@ -28,7 +28,7 @@ There are two options to install the program.
    ```
 2. Install the package using pip
   ```sh
-   pip install Draw_Reaction-zhiyix2
+   pip install Draw-Reaction-zhiyix2==0.1.1
   ```
 
 
@@ -60,8 +60,8 @@ The given txt file has to include the reaction section according to the format b
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
 [![MIT License](https://github.com/zhiyix2/Draw_Reaction/blob/main/Image/license.svg)](https://github.com/zhiyix2/Draw_Reaction/blob/main/LICENSE)
+
 
 
 ## Contact

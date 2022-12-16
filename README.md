@@ -1,21 +1,15 @@
+[![Latest Version](https://img.shields.io/pypi/v/tkshapes.svg)](https://pypi.org/project/tkshapes/)
+
 # Draw_Reaction
-
-
-
-
-  
 
 To setup the environment for executing "python Draw_Reaction.py" you need to install the Tkinter
 You can execute "pip install tk" in the terminal
 Run the program by executing "python Draw_Reaction.py <TXT File Path>"
 
 
-[![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
-
 
 ## About The Project
-
+[![Product Name Screen Shot](https://github.com/zhiyix2/Draw_Reaction/Image/Demo.svg)]
 This program draws reactions from a txt file with reactions in the SBML format.
 
 
@@ -58,7 +52,7 @@ There are two options to install the program.
    ```
 2. Install the package using pip
    ```sh
-   npm install
+   pip install Draw_Reaction-zhiyix2
    ```
 
 
@@ -86,5 +80,22 @@ The given txt file has to include the reaction section according to the format b
 
   J5: MKK_P => MKK; uVol*J5_V6*MKK_P/(J5_KK6 + MKK_P);
   ```
+
+
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+[![MIT License](https://github.com/zhiyix2/Draw_Reaction/Image/license.svg)](https://github.com/zhiyix2/Draw_Reaction/blob/main/LICENSE)
+
+
+## Contact
+
+Zhiying Xie - zhiyix2@uw.edu
+
+Project Link: [https://github.com/zhiyix2/Draw_Reaction.git](https://github.com/zhiyix2/Draw_Reaction)
+
+
 
 
